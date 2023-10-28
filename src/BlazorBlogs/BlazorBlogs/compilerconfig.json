@@ -1,0 +1,6 @@
+[
+  {
+    "outputFile": "wwwroot/css/BlazorSass.css",
+    "inputFile": "Styles/BlazorSass.scss"
+  }
+]
