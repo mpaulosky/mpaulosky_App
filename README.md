@@ -1,4 +1,4 @@
-# BlazorBlogs
+# mpaulosky_App
 
 ## New Blazor Hosted Application
 
@@ -6,20 +6,18 @@
 
 ****
 
-[![Issues Open](https://img.shields.io/github/issues/mpaulosky/BlazorBlogs.svg?style=flatsquare&logo=github&label=Open%20Issues)](https://github.com/mpaulosky/BlazorBlogs/issues)
-![GitHub closed issues](https://img.shields.io/github/issues-closed/mpaulosky/BlazorBlogs?logo=github)
-![GitHub](https://img.shields.io/github/license/mpaulosky/BlazorBlogs?logo=github)
+[![Issues Open](https://img.shields.io/github/issues/mpaulosky/mpaulosky_App.svg?style=flatsquare&logo=github&label=Open%20Issues)](https://github.com/mpaulosky/mpaulosky_App/issues)
+![GitHub closed issues](https://img.shields.io/github/issues-closed/mpaulosky/mpaulosky_App?logo=github)
+![GitHub](https://img.shields.io/github/license/mpaulosky/mpaulosky_App?logo=github)
 
-![GitHub pull requests](https://img.shields.io/github/issues-pr/mpaulosky/BlazorBlogs?label=pull%20requests%20main&logo=github)
-![GitHub closed pull requests](https://img.shields.io/github/issues-pr-closed/mpaulosky/BlazorBlogs?logo=github)
-![GitHub last commit (branch)](https://img.shields.io/github/last-commit/mpaulosky/BlazorBlogs/main?label=last%20commit%20main&logo=github)
-![GitHub last commit (branch)](https://img.shields.io/github/last-commit/mpaulosky/BlazorBlogs/dev?label=last%20commit%20dev&logo=github)
+![GitHub pull requests](https://img.shields.io/github/issues-pr/mpaulosky/mpaulosky_App?label=pull%20requests%20main&logo=github)
+![GitHub closed pull requests](https://img.shields.io/github/issues-pr-closed/mpaulosky/mpaulosky_App?logo=github)
+![GitHub last commit (branch)](https://img.shields.io/github/last-commit/mpaulosky/mpaulosky_App/main?label=last%20commit%20main&logo=github)
 
-![GitHub Workflow Status (with branch)](https://img.shields.io/github/actions/workflow/status/mpaulosky/BlazorBlogs/dotnet.yml?branch=main&label=Build%20%26%20Test%20main&logo=github)
-[![Build and Test dev](https://github.com/mpaulosky/BlazorBlogs/actions/workflows/dotnetdev.yml/badge.svg?branch=dev)](https://github.com/mpaulosky/BlazorBlogs/actions/workflows/dotnetdev.yml)
+![GitHub Workflow Status (with branch)](https://img.shields.io/github/actions/workflow/status/mpaulosky/mpaulosky_App/dotnet.yml?branch=main&label=Build%20%26%20Test%20main&logo=github)
 
-[![codecov](https://codecov.io/gh/mpaulosky/BlazorBlogs/branch/main/graph/badge.svg)](https://codecov.io/gh/mpaulosky/BlazorBlogs)
-[![CodeQL main](https://github.com/mpaulosky/BlazorBlogs/actions/workflows/codeql-analysis.yml/badge.svg?branch=main)](https://github.com/mpaulosky/BlazorBlogs/actions/workflows/codeql-analysis.yml?branch=main)
+[![codecov](https://codecov.io/gh/mpaulosky/mpaulosky_App/branch/main/graph/badge.svg)](https://codecov.io/gh/mpaulosky/mpaulosky_App)
+[![CodeQL main](https://github.com/mpaulosky/mpaulosky_App/actions/workflows/codeql-analysis.yml/badge.svg?branch=main)](https://github.com/mpaulosky/mpaulosky_App/actions/workflows/codeql-analysis.yml?branch=main)
 
 ****
 
@@ -35,13 +33,16 @@ Check out the [contributing page](./CONTRIBUTING.md) to see the best places to l
 
 ## Software References
 
-* .NET 7
+* .NET 8
 * C#
 * HTML
 * Bootstrap CSS
 * Blazor Server
+* SQL Server
+* EntityFramework
 * MongoDb
 * Docker
+* SASS
 
 ## Code of conduct
 

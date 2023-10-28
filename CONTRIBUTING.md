@@ -36,17 +36,16 @@ those tools as well. The folders are configured as follows:
 /documents                              -- User Documentation
 
 /src                                    -- Usage Samples
-  Client                                -- Blazor WASM  
-  Server                                -- API
-  Shared                                -- Library
+  BlazorBlogs.Client                    -- Blazor WASM
+  BlazorBlogs                           -- Server
   /tests                                -- Unit and Integration tests
-    Server.Unit.Tests                   -- Unit tests
-    Shared.Unit.Tests                   -- Unit tests
+    BlazorBlogs.Tests.Unit              -- Unit tests
+    BlazorBlogs.Client.Tests.Unit       -- Unit tests
     TestHelpers                         -- Mocked data helpers
 ```
 
 All official versions of the project are built and delivered with GitHub Actions and linked in the main README.md
-and [releases tab in GitHub](https://github.com/mpaulosky/BlazorBlogApp/releases).
+and [releases tab in GitHub](https://github.com/mpaulosky/mpaulosky_App/releases).
 
 ### Design Decisions
 
@@ -55,8 +54,8 @@ lead, [Matthew Paulosky](mailto:matthew.paulosky@outlook.com). The following pro
 decisions:
 
 1. Use Blazor for the UI.
-1. Use DotNetCore API for managing data access.
-1. Use SQL for data and identity storage.
+1. Use MongoDb for Blog storage.
+1. Use SQL for identity storage.
 1. Use EF Core to access the data.
 
 ### How can I contribute
@@ -71,7 +70,7 @@ This means one of several types of contributions:
 
 ### Create an Issue
 
-Create a [New Issue Here](https://github.com/mpaulosky/BlazorBlogApp/issues).
+Create a [New Issue Here](https://github.com/mpaulosky/mpaulosky_App/issues).
 
 1. If you are reporting a `Bug` that you have found. Be sure to add the `Bug` label so that we can triage and track it.
 1. If you are reporting an `Enhancement` that you think would improve the project. Be sure to add the `Enhancement`
@@ -79,7 +78,7 @@ Create a [New Issue Here](https://github.com/mpaulosky/BlazorBlogApp/issues).
 
 ### Respond to an Issue
 
-[Fork the Repository to your GitHub account](https://github.com/mpaulosky/BlazorBlogApp/fork).
+[Fork the Repository to your GitHub account](https://github.com/mpaulosky/mpaulosky_App/fork).
 
 1. Create a new Branch from the develop branch with a reference to the existing Issue number.
 1. Work on the issue.

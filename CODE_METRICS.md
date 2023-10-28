@@ -7,11 +7,11 @@ This file is dynamically maintained by a bot, *please do not* edit this by hand.
 various [code metrics](https://aka.ms/dotnet/code-metrics), such as cyclomatic complexity, maintainability index, and so
 on.
 
-<div id='issuetrackerlibrary'></div>
+<div id='BlazorBloglibrary'></div>
 
-## IssueTrackerLibrary :heavy_check_mark:
+## BlazorBlogLibrary :heavy_check_mark:
 
-The *IssueTrackerLibrary.csproj* project file contains:
+The *BlazorBlogLibrary.csproj* project file contains:
 
 - 2 namespaces.
 - 17 named types.
@@ -21,13 +21,13 @@ The *IssueTrackerLibrary.csproj* project file contains:
 
 <details>
 <summary>
-  <strong id="issuetrackerlibrary-dataaccess">
-    IssueTrackerLibrary.DataAccess :heavy_check_mark:
+  <strong id="BlazorBloglibrary-dataaccess">
+    BlazorBlogLibrary.DataAccess :heavy_check_mark:
   </strong>
 </summary>
 <br>
 
-The `IssueTrackerLibrary.DataAccess` namespace contains 10 named types.
+The `BlazorBlogLibrary.DataAccess` namespace contains 10 named types.
 
 - 10 named types.
 - 434 total lines of source code.
@@ -51,49 +51,49 @@ The `IssueTrackerLibrary.DataAccess` namespace contains 10 named types.
 Lines of source / executable code |
 | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
 | Field
-| [7](https://github.com/mpaulosky/IssueTracker/blob/main/src/IssueTrackerLibrary/DataAccess/DbConnection.cs#L7 "IConfiguration DbConnection._config")
+| [7](https://github.com/mpaulosky/BlazorBlog/blob/main/src/BlazorBlogLibrary/DataAccess/DbConnection.cs#L7 "IConfiguration DbConnection._config")
 | 100 | 0 :heavy_check_mark: | 0 | 1 | 1 / 0 |
 | Field
-| [9](https://github.com/mpaulosky/IssueTracker/blob/main/src/IssueTrackerLibrary/DataAccess/DbConnection.cs#L9 "string DbConnection._connectionId")
+| [9](https://github.com/mpaulosky/BlazorBlog/blob/main/src/BlazorBlogLibrary/DataAccess/DbConnection.cs#L9 "string DbConnection._connectionId")
 | 93 | 0 :heavy_check_mark: | 0 | 0 | 1 / 1 |
 | Field
-| [8](https://github.com/mpaulosky/IssueTracker/blob/main/src/IssueTrackerLibrary/DataAccess/DbConnection.cs#L8 "IMongoDatabase DbConnection._db")
+| [8](https://github.com/mpaulosky/BlazorBlog/blob/main/src/BlazorBlogLibrary/DataAccess/DbConnection.cs#L8 "IMongoDatabase DbConnection._db")
 | 100 | 0 :heavy_check_mark: | 0 | 1 | 1 / 0 |
 | Method
-| [24](https://github.com/mpaulosky/IssueTracker/blob/main/src/IssueTrackerLibrary/DataAccess/DbConnection.cs#L24 "DbConnection.DbConnection(IConfiguration config)")
+| [24](https://github.com/mpaulosky/BlazorBlog/blob/main/src/BlazorBlogLibrary/DataAccess/DbConnection.cs#L24 "DbConnection.DbConnection(IConfiguration config)")
 | 64 | 1 :heavy_check_mark: | 0 | 9 | 12 / 8 |
 | Property
-| [16](https://github.com/mpaulosky/IssueTracker/blob/main/src/IssueTrackerLibrary/DataAccess/DbConnection.cs#L16 "MongoClient DbConnection.Client")
+| [16](https://github.com/mpaulosky/BlazorBlog/blob/main/src/BlazorBlogLibrary/DataAccess/DbConnection.cs#L16 "MongoClient DbConnection.Client")
 | 100 | 2 :heavy_check_mark: | 0 | 1 | 1 / 0 |
 | Property
-| [21](https://github.com/mpaulosky/IssueTracker/blob/main/src/IssueTrackerLibrary/DataAccess/DbConnection.cs#L21 "IMongoCollection<CommentModel> DbConnection.CommentCollection")
+| [21](https://github.com/mpaulosky/BlazorBlog/blob/main/src/BlazorBlogLibrary/DataAccess/DbConnection.cs#L21 "IMongoCollection<CommentModel> DbConnection.CommentCollection")
 | 100 | 2 :heavy_check_mark: | 0 | 2 | 1 / 0 |
 | Property
-| [15](https://github.com/mpaulosky/IssueTracker/blob/main/src/IssueTrackerLibrary/DataAccess/DbConnection.cs#L15 "string DbConnection.CommentCollectionName")
+| [15](https://github.com/mpaulosky/BlazorBlog/blob/main/src/BlazorBlogLibrary/DataAccess/DbConnection.cs#L15 "string DbConnection.CommentCollectionName")
 | 100 | 2 :heavy_check_mark: | 0 | 0 | 1 / 1 |
 | Property
-| [11](https://github.com/mpaulosky/IssueTracker/blob/main/src/IssueTrackerLibrary/DataAccess/DbConnection.cs#L11 "string DbConnection.DbName")
+| [11](https://github.com/mpaulosky/BlazorBlog/blob/main/src/BlazorBlogLibrary/DataAccess/DbConnection.cs#L11 "string DbConnection.DbName")
 | 100 | 2 :heavy_check_mark: | 0 | 0 | 1 / 0 |
 | Property
-| [20](https://github.com/mpaulosky/IssueTracker/blob/main/src/IssueTrackerLibrary/DataAccess/DbConnection.cs#L20 "IMongoCollection<IssueModel> DbConnection.IssueCollection")
+| [20](https://github.com/mpaulosky/BlazorBlog/blob/main/src/BlazorBlogLibrary/DataAccess/DbConnection.cs#L20 "IMongoCollection<IssueModel> DbConnection.IssueCollection")
 | 100 | 2 :heavy_check_mark: | 0 | 2 | 1 / 0 |
 | Property
-| [14](https://github.com/mpaulosky/IssueTracker/blob/main/src/IssueTrackerLibrary/DataAccess/DbConnection.cs#L14 "string DbConnection.IssueCollectionName")
+| [14](https://github.com/mpaulosky/BlazorBlog/blob/main/src/BlazorBlogLibrary/DataAccess/DbConnection.cs#L14 "string DbConnection.IssueCollectionName")
 | 100 | 2 :heavy_check_mark: | 0 | 0 | 1 / 1 |
 | Property
-| [18](https://github.com/mpaulosky/IssueTracker/blob/main/src/IssueTrackerLibrary/DataAccess/DbConnection.cs#L18 "IMongoCollection<StatusModel> DbConnection.StatusCollection")
+| [18](https://github.com/mpaulosky/BlazorBlog/blob/main/src/BlazorBlogLibrary/DataAccess/DbConnection.cs#L18 "IMongoCollection<StatusModel> DbConnection.StatusCollection")
 | 100 | 2 :heavy_check_mark: | 0 | 2 | 1 / 0 |
 | Property
-| [12](https://github.com/mpaulosky/IssueTracker/blob/main/src/IssueTrackerLibrary/DataAccess/DbConnection.cs#L12 "string DbConnection.StatusCollectionName")
+| [12](https://github.com/mpaulosky/BlazorBlog/blob/main/src/BlazorBlogLibrary/DataAccess/DbConnection.cs#L12 "string DbConnection.StatusCollectionName")
 | 100 | 2 :heavy_check_mark: | 0 | 0 | 1 / 1 |
 | Property
-| [19](https://github.com/mpaulosky/IssueTracker/blob/main/src/IssueTrackerLibrary/DataAccess/DbConnection.cs#L19 "IMongoCollection<UserModel> DbConnection.UserCollection")
+| [19](https://github.com/mpaulosky/BlazorBlog/blob/main/src/BlazorBlogLibrary/DataAccess/DbConnection.cs#L19 "IMongoCollection<UserModel> DbConnection.UserCollection")
 | 100 | 2 :heavy_check_mark: | 0 | 2 | 1 / 0 |
 | Property
-| [13](https://github.com/mpaulosky/IssueTracker/blob/main/src/IssueTrackerLibrary/DataAccess/DbConnection.cs#L13 "string DbConnection.UserCollectionName")
+| [13](https://github.com/mpaulosky/BlazorBlog/blob/main/src/BlazorBlogLibrary/DataAccess/DbConnection.cs#L13 "string DbConnection.UserCollectionName")
 | 100 | 2 :heavy_check_mark: | 0 | 0 | 1 / 1 |
 
-<a href="#issuetrackerlibrary-dataaccess">:top: back to IssueTrackerLibrary.DataAccess</a>
+<a href="#BlazorBloglibrary-dataaccess">:top: back to BlazorBlogLibrary.DataAccess</a>
 
 </details>
 
@@ -114,31 +114,31 @@ Lines of source / executable code |
 Lines of source / executable code |
 | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
 | Method
-| [12](https://github.com/mpaulosky/IssueTracker/blob/main/src/IssueTrackerLibrary/Contracts/ICommentData.cs#L12 "Task ICommentData.CreateComment(CommentModel comment)")
+| [12](https://github.com/mpaulosky/BlazorBlog/blob/main/src/BlazorBlogLibrary/Contracts/ICommentData.cs#L12 "Task ICommentData.CreateComment(CommentModel comment)")
 | 100 | 1 :heavy_check_mark: | 0 | 2 | 1 / 0 |
 | Method
-| [7](https://github.com/mpaulosky/IssueTracker/blob/main/src/IssueTrackerLibrary/Contracts/ICommentData.cs#L7 "Task<List<CommentModel>> ICommentData.GetAllApprovedComments()")
+| [7](https://github.com/mpaulosky/BlazorBlog/blob/main/src/BlazorBlogLibrary/Contracts/ICommentData.cs#L7 "Task<List<CommentModel>> ICommentData.GetAllApprovedComments()")
 | 100 | 1 :heavy_check_mark: | 0 | 3 | 1 / 0 |
 | Method
-| [5](https://github.com/mpaulosky/IssueTracker/blob/main/src/IssueTrackerLibrary/Contracts/ICommentData.cs#L5 "Task<List<CommentModel>> ICommentData.GetAllComments()")
+| [5](https://github.com/mpaulosky/BlazorBlog/blob/main/src/BlazorBlogLibrary/Contracts/ICommentData.cs#L5 "Task<List<CommentModel>> ICommentData.GetAllComments()")
 | 100 | 1 :heavy_check_mark: | 0 | 3 | 1 / 0 |
 | Method
-| [9](https://github.com/mpaulosky/IssueTracker/blob/main/src/IssueTrackerLibrary/Contracts/ICommentData.cs#L9 "Task<List<CommentModel>> ICommentData.GetAllCommentsWaitingForApproval()")
+| [9](https://github.com/mpaulosky/BlazorBlog/blob/main/src/BlazorBlogLibrary/Contracts/ICommentData.cs#L9 "Task<List<CommentModel>> ICommentData.GetAllCommentsWaitingForApproval()")
 | 100 | 1 :heavy_check_mark: | 0 | 3 | 1 / 0 |
 | Method
-| [8](https://github.com/mpaulosky/IssueTracker/blob/main/src/IssueTrackerLibrary/Contracts/ICommentData.cs#L8 "Task<CommentModel> ICommentData.GetComment(string id)")
+| [8](https://github.com/mpaulosky/BlazorBlog/blob/main/src/BlazorBlogLibrary/Contracts/ICommentData.cs#L8 "Task<CommentModel> ICommentData.GetComment(string id)")
 | 100 | 1 :heavy_check_mark: | 0 | 2 | 1 / 0 |
 | Method
-| [6](https://github.com/mpaulosky/IssueTracker/blob/main/src/IssueTrackerLibrary/Contracts/ICommentData.cs#L6 "Task<List<CommentModel>> ICommentData.GetUsersComments(string userId)")
+| [6](https://github.com/mpaulosky/BlazorBlog/blob/main/src/BlazorBlogLibrary/Contracts/ICommentData.cs#L6 "Task<List<CommentModel>> ICommentData.GetUsersComments(string userId)")
 | 100 | 1 :heavy_check_mark: | 0 | 3 | 1 / 0 |
 | Method
-| [10](https://github.com/mpaulosky/IssueTracker/blob/main/src/IssueTrackerLibrary/Contracts/ICommentData.cs#L10 "Task ICommentData.UpdateComment(CommentModel suggestion)")
+| [10](https://github.com/mpaulosky/BlazorBlog/blob/main/src/BlazorBlogLibrary/Contracts/ICommentData.cs#L10 "Task ICommentData.UpdateComment(CommentModel suggestion)")
 | 100 | 1 :heavy_check_mark: | 0 | 2 | 1 / 0 |
 | Method
-| [11](https://github.com/mpaulosky/IssueTracker/blob/main/src/IssueTrackerLibrary/Contracts/ICommentData.cs#L11 "Task ICommentData.UpvoteComment(string commentId, string userId)")
+| [11](https://github.com/mpaulosky/BlazorBlog/blob/main/src/BlazorBlogLibrary/Contracts/ICommentData.cs#L11 "Task ICommentData.UpvoteComment(string commentId, string userId)")
 | 100 | 1 :heavy_check_mark: | 0 | 1 | 1 / 0 |
 
-<a href="#issuetrackerlibrary-dataaccess">:top: back to IssueTrackerLibrary.DataAccess</a>
+<a href="#BlazorBloglibrary-dataaccess">:top: back to BlazorBlogLibrary.DataAccess</a>
 
 </details>
 
@@ -159,37 +159,37 @@ Lines of source / executable code |
 Lines of source / executable code |
 | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
 | Property
-| [10](https://github.com/mpaulosky/IssueTracker/blob/main/src/IssueTrackerLibrary/Contracts/IDbConnection.cs#L10 "MongoClient IDbConnection.Client")
+| [10](https://github.com/mpaulosky/BlazorBlog/blob/main/src/BlazorBlogLibrary/Contracts/IDbConnection.cs#L10 "MongoClient IDbConnection.Client")
 | 100 | 1 :heavy_check_mark: | 0 | 1 | 1 / 0 |
 | Property
-| [14](https://github.com/mpaulosky/IssueTracker/blob/main/src/IssueTrackerLibrary/Contracts/IDbConnection.cs#L14 "IMongoCollection<CommentModel> IDbConnection.CommentCollection")
+| [14](https://github.com/mpaulosky/BlazorBlog/blob/main/src/BlazorBlogLibrary/Contracts/IDbConnection.cs#L14 "IMongoCollection<CommentModel> IDbConnection.CommentCollection")
 | 100 | 1 :heavy_check_mark: | 0 | 2 | 1 / 0 |
 | Property
-| [9](https://github.com/mpaulosky/IssueTracker/blob/main/src/IssueTrackerLibrary/Contracts/IDbConnection.cs#L9 "string IDbConnection.CommentCollectionName")
+| [9](https://github.com/mpaulosky/BlazorBlog/blob/main/src/BlazorBlogLibrary/Contracts/IDbConnection.cs#L9 "string IDbConnection.CommentCollectionName")
 | 100 | 1 :heavy_check_mark: | 0 | 0 | 1 / 0 |
 | Property
-| [5](https://github.com/mpaulosky/IssueTracker/blob/main/src/IssueTrackerLibrary/Contracts/IDbConnection.cs#L5 "string IDbConnection.DbName")
+| [5](https://github.com/mpaulosky/BlazorBlog/blob/main/src/BlazorBlogLibrary/Contracts/IDbConnection.cs#L5 "string IDbConnection.DbName")
 | 100 | 1 :heavy_check_mark: | 0 | 0 | 1 / 0 |
 | Property
-| [13](https://github.com/mpaulosky/IssueTracker/blob/main/src/IssueTrackerLibrary/Contracts/IDbConnection.cs#L13 "IMongoCollection<IssueModel> IDbConnection.IssueCollection")
+| [13](https://github.com/mpaulosky/BlazorBlog/blob/main/src/BlazorBlogLibrary/Contracts/IDbConnection.cs#L13 "IMongoCollection<IssueModel> IDbConnection.IssueCollection")
 | 100 | 1 :heavy_check_mark: | 0 | 2 | 1 / 0 |
 | Property
-| [8](https://github.com/mpaulosky/IssueTracker/blob/main/src/IssueTrackerLibrary/Contracts/IDbConnection.cs#L8 "string IDbConnection.IssueCollectionName")
+| [8](https://github.com/mpaulosky/BlazorBlog/blob/main/src/BlazorBlogLibrary/Contracts/IDbConnection.cs#L8 "string IDbConnection.IssueCollectionName")
 | 100 | 1 :heavy_check_mark: | 0 | 0 | 1 / 0 |
 | Property
-| [11](https://github.com/mpaulosky/IssueTracker/blob/main/src/IssueTrackerLibrary/Contracts/IDbConnection.cs#L11 "IMongoCollection<StatusModel> IDbConnection.StatusCollection")
+| [11](https://github.com/mpaulosky/BlazorBlog/blob/main/src/BlazorBlogLibrary/Contracts/IDbConnection.cs#L11 "IMongoCollection<StatusModel> IDbConnection.StatusCollection")
 | 100 | 1 :heavy_check_mark: | 0 | 2 | 1 / 0 |
 | Property
-| [6](https://github.com/mpaulosky/IssueTracker/blob/main/src/IssueTrackerLibrary/Contracts/IDbConnection.cs#L6 "string IDbConnection.StatusCollectionName")
+| [6](https://github.com/mpaulosky/BlazorBlog/blob/main/src/BlazorBlogLibrary/Contracts/IDbConnection.cs#L6 "string IDbConnection.StatusCollectionName")
 | 100 | 1 :heavy_check_mark: | 0 | 0 | 1 / 0 |
 | Property
-| [12](https://github.com/mpaulosky/IssueTracker/blob/main/src/IssueTrackerLibrary/Contracts/IDbConnection.cs#L12 "IMongoCollection<UserModel> IDbConnection.UserCollection")
+| [12](https://github.com/mpaulosky/BlazorBlog/blob/main/src/BlazorBlogLibrary/Contracts/IDbConnection.cs#L12 "IMongoCollection<UserModel> IDbConnection.UserCollection")
 | 100 | 1 :heavy_check_mark: | 0 | 2 | 1 / 0 |
 | Property
-| [7](https://github.com/mpaulosky/IssueTracker/blob/main/src/IssueTrackerLibrary/Contracts/IDbConnection.cs#L7 "string IDbConnection.UserCollectionName")
+| [7](https://github.com/mpaulosky/BlazorBlog/blob/main/src/BlazorBlogLibrary/Contracts/IDbConnection.cs#L7 "string IDbConnection.UserCollectionName")
 | 100 | 1 :heavy_check_mark: | 0 | 0 | 1 / 0 |
 
-<a href="#issuetrackerlibrary-dataaccess">:top: back to IssueTrackerLibrary.DataAccess</a>
+<a href="#BlazorBloglibrary-dataaccess">:top: back to BlazorBlogLibrary.DataAccess</a>
 
 </details>
 
@@ -210,31 +210,31 @@ Lines of source / executable code |
 Lines of source / executable code |
 | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
 | Method
-| [12](https://github.com/mpaulosky/IssueTracker/blob/main/src/IssueTrackerLibrary/Contracts/IIssueData.cs#L12 "Task IIssueData.CreateSuggestion(IssueModel suggestion)")
+| [12](https://github.com/mpaulosky/BlazorBlog/blob/main/src/BlazorBlogLibrary/Contracts/IIssueData.cs#L12 "Task IIssueData.CreateSuggestion(IssueModel suggestion)")
 | 100 | 1 :heavy_check_mark: | 0 | 2 | 1 / 0 |
 | Method
-| [7](https://github.com/mpaulosky/IssueTracker/blob/main/src/IssueTrackerLibrary/Contracts/IIssueData.cs#L7 "Task<List<IssueModel>> IIssueData.GetAllApprovedSuggestions()")
+| [7](https://github.com/mpaulosky/BlazorBlog/blob/main/src/BlazorBlogLibrary/Contracts/IIssueData.cs#L7 "Task<List<IssueModel>> IIssueData.GetAllApprovedSuggestions()")
 | 100 | 1 :heavy_check_mark: | 0 | 3 | 1 / 0 |
 | Method
-| [5](https://github.com/mpaulosky/IssueTracker/blob/main/src/IssueTrackerLibrary/Contracts/IIssueData.cs#L5 "Task<List<IssueModel>> IIssueData.GetAllSuggestions()")
+| [5](https://github.com/mpaulosky/BlazorBlog/blob/main/src/BlazorBlogLibrary/Contracts/IIssueData.cs#L5 "Task<List<IssueModel>> IIssueData.GetAllSuggestions()")
 | 100 | 1 :heavy_check_mark: | 0 | 3 | 1 / 0 |
 | Method
-| [9](https://github.com/mpaulosky/IssueTracker/blob/main/src/IssueTrackerLibrary/Contracts/IIssueData.cs#L9 "Task<List<IssueModel>> IIssueData.GetAllSuggestionsWaitingForApproval()")
+| [9](https://github.com/mpaulosky/BlazorBlog/blob/main/src/BlazorBlogLibrary/Contracts/IIssueData.cs#L9 "Task<List<IssueModel>> IIssueData.GetAllSuggestionsWaitingForApproval()")
 | 100 | 1 :heavy_check_mark: | 0 | 3 | 1 / 0 |
 | Method
-| [8](https://github.com/mpaulosky/IssueTracker/blob/main/src/IssueTrackerLibrary/Contracts/IIssueData.cs#L8 "Task<IssueModel> IIssueData.GetSuggestion(string id)")
+| [8](https://github.com/mpaulosky/BlazorBlog/blob/main/src/BlazorBlogLibrary/Contracts/IIssueData.cs#L8 "Task<IssueModel> IIssueData.GetSuggestion(string id)")
 | 100 | 1 :heavy_check_mark: | 0 | 2 | 1 / 0 |
 | Method
-| [6](https://github.com/mpaulosky/IssueTracker/blob/main/src/IssueTrackerLibrary/Contracts/IIssueData.cs#L6 "Task<List<IssueModel>> IIssueData.GetUsersSuggestions(string userId)")
+| [6](https://github.com/mpaulosky/BlazorBlog/blob/main/src/BlazorBlogLibrary/Contracts/IIssueData.cs#L6 "Task<List<IssueModel>> IIssueData.GetUsersSuggestions(string userId)")
 | 100 | 1 :heavy_check_mark: | 0 | 3 | 1 / 0 |
 | Method
-| [10](https://github.com/mpaulosky/IssueTracker/blob/main/src/IssueTrackerLibrary/Contracts/IIssueData.cs#L10 "Task IIssueData.UpdateSuggestion(IssueModel suggestion)")
+| [10](https://github.com/mpaulosky/BlazorBlog/blob/main/src/BlazorBlogLibrary/Contracts/IIssueData.cs#L10 "Task IIssueData.UpdateSuggestion(IssueModel suggestion)")
 | 100 | 1 :heavy_check_mark: | 0 | 2 | 1 / 0 |
 | Method
-| [11](https://github.com/mpaulosky/IssueTracker/blob/main/src/IssueTrackerLibrary/Contracts/IIssueData.cs#L11 "Task IIssueData.UpvoteSuggestion(string suggestionId, string userId)")
+| [11](https://github.com/mpaulosky/BlazorBlog/blob/main/src/BlazorBlogLibrary/Contracts/IIssueData.cs#L11 "Task IIssueData.UpvoteSuggestion(string suggestionId, string userId)")
 | 100 | 1 :heavy_check_mark: | 0 | 1 | 1 / 0 |
 
-<a href="#issuetrackerlibrary-dataaccess">:top: back to IssueTrackerLibrary.DataAccess</a>
+<a href="#BlazorBloglibrary-dataaccess">:top: back to BlazorBlogLibrary.DataAccess</a>
 
 </details>
 
@@ -255,13 +255,13 @@ Lines of source / executable code |
 Lines of source / executable code |
 | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
 | Method
-| [6](https://github.com/mpaulosky/IssueTracker/blob/main/src/IssueTrackerLibrary/Contracts/IStatusData.cs#L6 "Task IStatusData.CreateStatus(StatusModel status)")
+| [6](https://github.com/mpaulosky/BlazorBlog/blob/main/src/BlazorBlogLibrary/Contracts/IStatusData.cs#L6 "Task IStatusData.CreateStatus(StatusModel status)")
 | 100 | 1 :heavy_check_mark: | 0 | 2 | 1 / 0 |
 | Method
-| [5](https://github.com/mpaulosky/IssueTracker/blob/main/src/IssueTrackerLibrary/Contracts/IStatusData.cs#L5 "Task<List<StatusModel>> IStatusData.GetAllStatuses()")
+| [5](https://github.com/mpaulosky/BlazorBlog/blob/main/src/BlazorBlogLibrary/Contracts/IStatusData.cs#L5 "Task<List<StatusModel>> IStatusData.GetAllStatuses()")
 | 100 | 1 :heavy_check_mark: | 0 | 3 | 1 / 0 |
 
-<a href="#issuetrackerlibrary-dataaccess">:top: back to IssueTrackerLibrary.DataAccess</a>
+<a href="#BlazorBloglibrary-dataaccess">:top: back to BlazorBlogLibrary.DataAccess</a>
 
 </details>
 
@@ -282,22 +282,22 @@ Lines of source / executable code |
 Lines of source / executable code |
 | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
 | Method
-| [8](https://github.com/mpaulosky/IssueTracker/blob/main/src/IssueTrackerLibrary/Contracts/IUserData.cs#L8 "Task IUserData.CreateUser(UserModel user)")
+| [8](https://github.com/mpaulosky/BlazorBlog/blob/main/src/BlazorBlogLibrary/Contracts/IUserData.cs#L8 "Task IUserData.CreateUser(UserModel user)")
 | 100 | 1 :heavy_check_mark: | 0 | 2 | 1 / 0 |
 | Method
-| [6](https://github.com/mpaulosky/IssueTracker/blob/main/src/IssueTrackerLibrary/Contracts/IUserData.cs#L6 "Task<UserModel> IUserData.GetUser(string id)")
+| [6](https://github.com/mpaulosky/BlazorBlog/blob/main/src/BlazorBlogLibrary/Contracts/IUserData.cs#L6 "Task<UserModel> IUserData.GetUser(string id)")
 | 100 | 1 :heavy_check_mark: | 0 | 2 | 1 / 0 |
 | Method
-| [7](https://github.com/mpaulosky/IssueTracker/blob/main/src/IssueTrackerLibrary/Contracts/IUserData.cs#L7 "Task<UserModel> IUserData.GetUserFromAuthentication(string objectId)")
+| [7](https://github.com/mpaulosky/BlazorBlog/blob/main/src/BlazorBlogLibrary/Contracts/IUserData.cs#L7 "Task<UserModel> IUserData.GetUserFromAuthentication(string objectId)")
 | 100 | 1 :heavy_check_mark: | 0 | 2 | 1 / 0 |
 | Method
-| [5](https://github.com/mpaulosky/IssueTracker/blob/main/src/IssueTrackerLibrary/Contracts/IUserData.cs#L5 "Task<List<UserModel>> IUserData.GetUsers()")
+| [5](https://github.com/mpaulosky/BlazorBlog/blob/main/src/BlazorBlogLibrary/Contracts/IUserData.cs#L5 "Task<List<UserModel>> IUserData.GetUsers()")
 | 100 | 1 :heavy_check_mark: | 0 | 3 | 1 / 0 |
 | Method
-| [9](https://github.com/mpaulosky/IssueTracker/blob/main/src/IssueTrackerLibrary/Contracts/IUserData.cs#L9 "Task IUserData.UpdateUser(UserModel user)")
+| [9](https://github.com/mpaulosky/BlazorBlog/blob/main/src/BlazorBlogLibrary/Contracts/IUserData.cs#L9 "Task IUserData.UpdateUser(UserModel user)")
 | 100 | 1 :heavy_check_mark: | 0 | 2 | 1 / 0 |
 
-<a href="#issuetrackerlibrary-dataaccess">:top: back to IssueTrackerLibrary.DataAccess</a>
+<a href="#BlazorBloglibrary-dataaccess">:top: back to BlazorBlogLibrary.DataAccess</a>
 
 </details>
 
@@ -318,49 +318,49 @@ Lines of source / executable code |
 Lines of source / executable code |
 | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
 | Field
-| [9](https://github.com/mpaulosky/IssueTracker/blob/main/src/IssueTrackerLibrary/DataAccess/MongoCommentData.cs#L9 "IMemoryCache MongoCommentData._cache")
+| [9](https://github.com/mpaulosky/BlazorBlog/blob/main/src/BlazorBlogLibrary/DataAccess/MongoCommentData.cs#L9 "IMemoryCache MongoCommentData._cache")
 | 100 | 0 :heavy_check_mark: | 0 | 1 | 1 / 0 |
 | Field
-| [11](https://github.com/mpaulosky/IssueTracker/blob/main/src/IssueTrackerLibrary/DataAccess/MongoCommentData.cs#L11 "string MongoCommentData._cacheName")
+| [11](https://github.com/mpaulosky/BlazorBlog/blob/main/src/BlazorBlogLibrary/DataAccess/MongoCommentData.cs#L11 "string MongoCommentData._cacheName")
 | 93 | 0 :heavy_check_mark: | 0 | 0 | 1 / 1 |
 | Field
-| [7](https://github.com/mpaulosky/IssueTracker/blob/main/src/IssueTrackerLibrary/DataAccess/MongoCommentData.cs#L7 "IDbConnection MongoCommentData._db")
+| [7](https://github.com/mpaulosky/BlazorBlog/blob/main/src/BlazorBlogLibrary/DataAccess/MongoCommentData.cs#L7 "IDbConnection MongoCommentData._db")
 | 100 | 0 :heavy_check_mark: | 0 | 1 | 1 / 0 |
 | Field
-| [10](https://github.com/mpaulosky/IssueTracker/blob/main/src/IssueTrackerLibrary/DataAccess/MongoCommentData.cs#L10 "IMongoCollection<CommentModel> MongoCommentData._suggestions")
+| [10](https://github.com/mpaulosky/BlazorBlog/blob/main/src/BlazorBlogLibrary/DataAccess/MongoCommentData.cs#L10 "IMongoCollection<CommentModel> MongoCommentData._suggestions")
 | 100 | 0 :heavy_check_mark: | 0 | 2 | 1 / 0 |
 | Field
-| [8](https://github.com/mpaulosky/IssueTracker/blob/main/src/IssueTrackerLibrary/DataAccess/MongoCommentData.cs#L8 "IUserData MongoCommentData._userData")
+| [8](https://github.com/mpaulosky/BlazorBlog/blob/main/src/BlazorBlogLibrary/DataAccess/MongoCommentData.cs#L8 "IUserData MongoCommentData._userData")
 | 100 | 0 :heavy_check_mark: | 0 | 1 | 1 / 0 |
 | Method
-| [13](https://github.com/mpaulosky/IssueTracker/blob/main/src/IssueTrackerLibrary/DataAccess/MongoCommentData.cs#L13 "MongoCommentData.MongoCommentData(IDbConnection db, IUserData userData, IMemoryCache cache)")
+| [13](https://github.com/mpaulosky/BlazorBlog/blob/main/src/BlazorBlogLibrary/DataAccess/MongoCommentData.cs#L13 "MongoCommentData.MongoCommentData(IDbConnection db, IUserData userData, IMemoryCache cache)")
 | 75 | 1 :heavy_check_mark: | 0 | 5 | 7 / 4 |
 | Method
-| [120](https://github.com/mpaulosky/IssueTracker/blob/main/src/IssueTrackerLibrary/DataAccess/MongoCommentData.cs#L120 "Task MongoCommentData.CreateComment(CommentModel comment)")
+| [120](https://github.com/mpaulosky/BlazorBlog/blob/main/src/BlazorBlogLibrary/DataAccess/MongoCommentData.cs#L120 "Task MongoCommentData.CreateComment(CommentModel comment)")
 | 58 | 1 :heavy_check_mark: | 0 | 13 | 27 / 14 |
 | Method
-| [49](https://github.com/mpaulosky/IssueTracker/blob/main/src/IssueTrackerLibrary/DataAccess/MongoCommentData.cs#L49 "Task<List<CommentModel>> MongoCommentData.GetAllApprovedComments()")
+| [49](https://github.com/mpaulosky/BlazorBlog/blob/main/src/BlazorBlogLibrary/DataAccess/MongoCommentData.cs#L49 "Task<List<CommentModel>> MongoCommentData.GetAllApprovedComments()")
 | 87 | 1 :heavy_check_mark: | 0 | 4 | 5 / 2 |
 | Method
-| [21](https://github.com/mpaulosky/IssueTracker/blob/main/src/IssueTrackerLibrary/DataAccess/MongoCommentData.cs#L21 "Task<List<CommentModel>> MongoCommentData.GetAllComments()")
+| [21](https://github.com/mpaulosky/BlazorBlog/blob/main/src/BlazorBlogLibrary/DataAccess/MongoCommentData.cs#L21 "Task<List<CommentModel>> MongoCommentData.GetAllComments()")
 | 68 | 2 :heavy_check_mark: | 0 | 8 | 13 / 7 |
 | Method
-| [61](https://github.com/mpaulosky/IssueTracker/blob/main/src/IssueTrackerLibrary/DataAccess/MongoCommentData.cs#L61 "Task<List<CommentModel>> MongoCommentData.GetAllCommentsWaitingForApproval()")
+| [61](https://github.com/mpaulosky/BlazorBlog/blob/main/src/BlazorBlogLibrary/DataAccess/MongoCommentData.cs#L61 "Task<List<CommentModel>> MongoCommentData.GetAllCommentsWaitingForApproval()")
 | 87 | 1 :heavy_check_mark: | 0 | 4 | 5 / 2 |
 | Method
-| [55](https://github.com/mpaulosky/IssueTracker/blob/main/src/IssueTrackerLibrary/DataAccess/MongoCommentData.cs#L55 "Task<CommentModel> MongoCommentData.GetComment(string id)")
+| [55](https://github.com/mpaulosky/BlazorBlog/blob/main/src/BlazorBlogLibrary/DataAccess/MongoCommentData.cs#L55 "Task<CommentModel> MongoCommentData.GetComment(string id)")
 | 80 | 1 :heavy_check_mark: | 0 | 6 | 5 / 3 |
 | Method
-| [35](https://github.com/mpaulosky/IssueTracker/blob/main/src/IssueTrackerLibrary/DataAccess/MongoCommentData.cs#L35 "Task<List<CommentModel>> MongoCommentData.GetUsersComments(string userId)")
+| [35](https://github.com/mpaulosky/BlazorBlog/blob/main/src/BlazorBlogLibrary/DataAccess/MongoCommentData.cs#L35 "Task<List<CommentModel>> MongoCommentData.GetUsersComments(string userId)")
 | 68 | 2 :heavy_check_mark: | 0 | 8 | 13 / 7 |
 | Method
-| [67](https://github.com/mpaulosky/IssueTracker/blob/main/src/IssueTrackerLibrary/DataAccess/MongoCommentData.cs#L67 "Task MongoCommentData.UpdateComment(CommentModel suggestion)")
+| [67](https://github.com/mpaulosky/BlazorBlog/blob/main/src/BlazorBlogLibrary/DataAccess/MongoCommentData.cs#L67 "Task MongoCommentData.UpdateComment(CommentModel suggestion)")
 | 79 | 1 :heavy_check_mark: | 0 | 5 | 5 / 3 |
 | Method
-| [73](https://github.com/mpaulosky/IssueTracker/blob/main/src/IssueTrackerLibrary/DataAccess/MongoCommentData.cs#L73 "Task MongoCommentData.UpvoteComment(string commentId, string userId)")
+| [73](https://github.com/mpaulosky/BlazorBlog/blob/main/src/BlazorBlogLibrary/DataAccess/MongoCommentData.cs#L73 "Task MongoCommentData.UpvoteComment(string commentId, string userId)")
 | 51 | 3 :heavy_check_mark: | 0 | 14 | 46 / 25 |
 
-<a href="#issuetrackerlibrary-dataaccess">:top: back to IssueTrackerLibrary.DataAccess</a>
+<a href="#BlazorBloglibrary-dataaccess">:top: back to BlazorBlogLibrary.DataAccess</a>
 
 </details>
 
@@ -381,49 +381,49 @@ Lines of source / executable code |
 Lines of source / executable code |
 | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
 | Field
-| [9](https://github.com/mpaulosky/IssueTracker/blob/main/src/IssueTrackerLibrary/DataAccess/MongoIssueData.cs#L9 "IMemoryCache MongoIssueData._cache")
+| [9](https://github.com/mpaulosky/BlazorBlog/blob/main/src/BlazorBlogLibrary/DataAccess/MongoIssueData.cs#L9 "IMemoryCache MongoIssueData._cache")
 | 100 | 0 :heavy_check_mark: | 0 | 1 | 1 / 0 |
 | Field
-| [11](https://github.com/mpaulosky/IssueTracker/blob/main/src/IssueTrackerLibrary/DataAccess/MongoIssueData.cs#L11 "string MongoIssueData._cacheName")
+| [11](https://github.com/mpaulosky/BlazorBlog/blob/main/src/BlazorBlogLibrary/DataAccess/MongoIssueData.cs#L11 "string MongoIssueData._cacheName")
 | 93 | 0 :heavy_check_mark: | 0 | 0 | 1 / 1 |
 | Field
-| [7](https://github.com/mpaulosky/IssueTracker/blob/main/src/IssueTrackerLibrary/DataAccess/MongoIssueData.cs#L7 "IDbConnection MongoIssueData._db")
+| [7](https://github.com/mpaulosky/BlazorBlog/blob/main/src/BlazorBlogLibrary/DataAccess/MongoIssueData.cs#L7 "IDbConnection MongoIssueData._db")
 | 100 | 0 :heavy_check_mark: | 0 | 1 | 1 / 0 |
 | Field
-| [10](https://github.com/mpaulosky/IssueTracker/blob/main/src/IssueTrackerLibrary/DataAccess/MongoIssueData.cs#L10 "IMongoCollection<IssueModel> MongoIssueData._issues")
+| [10](https://github.com/mpaulosky/BlazorBlog/blob/main/src/BlazorBlogLibrary/DataAccess/MongoIssueData.cs#L10 "IMongoCollection<IssueModel> MongoIssueData._issues")
 | 100 | 0 :heavy_check_mark: | 0 | 2 | 1 / 0 |
 | Field
-| [8](https://github.com/mpaulosky/IssueTracker/blob/main/src/IssueTrackerLibrary/DataAccess/MongoIssueData.cs#L8 "IUserData MongoIssueData._userData")
+| [8](https://github.com/mpaulosky/BlazorBlog/blob/main/src/BlazorBlogLibrary/DataAccess/MongoIssueData.cs#L8 "IUserData MongoIssueData._userData")
 | 100 | 0 :heavy_check_mark: | 0 | 1 | 1 / 0 |
 | Method
-| [13](https://github.com/mpaulosky/IssueTracker/blob/main/src/IssueTrackerLibrary/DataAccess/MongoIssueData.cs#L13 "MongoIssueData.MongoIssueData(IDbConnection db, IUserData userData, IMemoryCache cache)")
+| [13](https://github.com/mpaulosky/BlazorBlog/blob/main/src/BlazorBlogLibrary/DataAccess/MongoIssueData.cs#L13 "MongoIssueData.MongoIssueData(IDbConnection db, IUserData userData, IMemoryCache cache)")
 | 75 | 1 :heavy_check_mark: | 0 | 5 | 7 / 4 |
 | Method
-| [105](https://github.com/mpaulosky/IssueTracker/blob/main/src/IssueTrackerLibrary/DataAccess/MongoIssueData.cs#L105 "Task MongoIssueData.CreateSuggestion(IssueModel suggestion)")
+| [105](https://github.com/mpaulosky/BlazorBlog/blob/main/src/BlazorBlogLibrary/DataAccess/MongoIssueData.cs#L105 "Task MongoIssueData.CreateSuggestion(IssueModel suggestion)")
 | 58 | 1 :heavy_check_mark: | 0 | 12 | 27 / 14 |
 | Method
-| [49](https://github.com/mpaulosky/IssueTracker/blob/main/src/IssueTrackerLibrary/DataAccess/MongoIssueData.cs#L49 "Task<List<IssueModel>> MongoIssueData.GetAllApprovedSuggestions()")
+| [49](https://github.com/mpaulosky/BlazorBlog/blob/main/src/BlazorBlogLibrary/DataAccess/MongoIssueData.cs#L49 "Task<List<IssueModel>> MongoIssueData.GetAllApprovedSuggestions()")
 | 87 | 1 :heavy_check_mark: | 0 | 4 | 5 / 2 |
 | Method
-| [21](https://github.com/mpaulosky/IssueTracker/blob/main/src/IssueTrackerLibrary/DataAccess/MongoIssueData.cs#L21 "Task<List<IssueModel>> MongoIssueData.GetAllSuggestions()")
+| [21](https://github.com/mpaulosky/BlazorBlog/blob/main/src/BlazorBlogLibrary/DataAccess/MongoIssueData.cs#L21 "Task<List<IssueModel>> MongoIssueData.GetAllSuggestions()")
 | 68 | 2 :heavy_check_mark: | 0 | 8 | 13 / 7 |
 | Method
-| [61](https://github.com/mpaulosky/IssueTracker/blob/main/src/IssueTrackerLibrary/DataAccess/MongoIssueData.cs#L61 "Task<List<IssueModel>> MongoIssueData.GetAllSuggestionsWaitingForApproval()")
+| [61](https://github.com/mpaulosky/BlazorBlog/blob/main/src/BlazorBlogLibrary/DataAccess/MongoIssueData.cs#L61 "Task<List<IssueModel>> MongoIssueData.GetAllSuggestionsWaitingForApproval()")
 | 87 | 1 :heavy_check_mark: | 0 | 4 | 5 / 2 |
 | Method
-| [55](https://github.com/mpaulosky/IssueTracker/blob/main/src/IssueTrackerLibrary/DataAccess/MongoIssueData.cs#L55 "Task<IssueModel> MongoIssueData.GetSuggestion(string id)")
+| [55](https://github.com/mpaulosky/BlazorBlog/blob/main/src/BlazorBlogLibrary/DataAccess/MongoIssueData.cs#L55 "Task<IssueModel> MongoIssueData.GetSuggestion(string id)")
 | 80 | 1 :heavy_check_mark: | 0 | 6 | 5 / 3 |
 | Method
-| [35](https://github.com/mpaulosky/IssueTracker/blob/main/src/IssueTrackerLibrary/DataAccess/MongoIssueData.cs#L35 "Task<List<IssueModel>> MongoIssueData.GetUsersSuggestions(string userId)")
+| [35](https://github.com/mpaulosky/BlazorBlog/blob/main/src/BlazorBlogLibrary/DataAccess/MongoIssueData.cs#L35 "Task<List<IssueModel>> MongoIssueData.GetUsersSuggestions(string userId)")
 | 68 | 2 :heavy_check_mark: | 0 | 8 | 13 / 7 |
 | Method
-| [67](https://github.com/mpaulosky/IssueTracker/blob/main/src/IssueTrackerLibrary/DataAccess/MongoIssueData.cs#L67 "Task MongoIssueData.UpdateSuggestion(IssueModel suggestion)")
+| [67](https://github.com/mpaulosky/BlazorBlog/blob/main/src/BlazorBlogLibrary/DataAccess/MongoIssueData.cs#L67 "Task MongoIssueData.UpdateSuggestion(IssueModel suggestion)")
 | 79 | 1 :heavy_check_mark: | 0 | 5 | 5 / 3 |
 | Method
-| [73](https://github.com/mpaulosky/IssueTracker/blob/main/src/IssueTrackerLibrary/DataAccess/MongoIssueData.cs#L73 "Task MongoIssueData.UpvoteSuggestion(string suggestionId, string userId)")
+| [73](https://github.com/mpaulosky/BlazorBlog/blob/main/src/BlazorBlogLibrary/DataAccess/MongoIssueData.cs#L73 "Task MongoIssueData.UpvoteSuggestion(string suggestionId, string userId)")
 | 56 | 1 :heavy_check_mark: | 0 | 13 | 31 / 17 |
 
-<a href="#issuetrackerlibrary-dataaccess">:top: back to IssueTrackerLibrary.DataAccess</a>
+<a href="#BlazorBloglibrary-dataaccess">:top: back to BlazorBlogLibrary.DataAccess</a>
 
 </details>
 
@@ -444,25 +444,25 @@ Lines of source / executable code |
 Lines of source / executable code |
 | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
 | Field
-| [8](https://github.com/mpaulosky/IssueTracker/blob/main/src/IssueTrackerLibrary/DataAccess/MongoStatusData.cs#L8 "IMemoryCache MongoStatusData._cache")
+| [8](https://github.com/mpaulosky/BlazorBlog/blob/main/src/BlazorBlogLibrary/DataAccess/MongoStatusData.cs#L8 "IMemoryCache MongoStatusData._cache")
 | 100 | 0 :heavy_check_mark: | 0 | 1 | 1 / 0 |
 | Field
-| [7](https://github.com/mpaulosky/IssueTracker/blob/main/src/IssueTrackerLibrary/DataAccess/MongoStatusData.cs#L7 "IMongoCollection<StatusModel> MongoStatusData._statuses")
+| [7](https://github.com/mpaulosky/BlazorBlog/blob/main/src/BlazorBlogLibrary/DataAccess/MongoStatusData.cs#L7 "IMongoCollection<StatusModel> MongoStatusData._statuses")
 | 100 | 0 :heavy_check_mark: | 0 | 2 | 1 / 0 |
 | Method
-| [11](https://github.com/mpaulosky/IssueTracker/blob/main/src/IssueTrackerLibrary/DataAccess/MongoStatusData.cs#L11 "MongoStatusData.MongoStatusData(IDbConnection db, IMemoryCache cache)")
+| [11](https://github.com/mpaulosky/BlazorBlog/blob/main/src/BlazorBlogLibrary/DataAccess/MongoStatusData.cs#L11 "MongoStatusData.MongoStatusData(IDbConnection db, IMemoryCache cache)")
 | 84 | 1 :heavy_check_mark: | 0 | 4 | 5 / 2 |
 | Field
-| [9](https://github.com/mpaulosky/IssueTracker/blob/main/src/IssueTrackerLibrary/DataAccess/MongoStatusData.cs#L9 "string MongoStatusData.CacheName")
+| [9](https://github.com/mpaulosky/BlazorBlog/blob/main/src/BlazorBlogLibrary/DataAccess/MongoStatusData.cs#L9 "string MongoStatusData.CacheName")
 | 93 | 0 :heavy_check_mark: | 0 | 0 | 1 / 1 |
 | Method
-| [31](https://github.com/mpaulosky/IssueTracker/blob/main/src/IssueTrackerLibrary/DataAccess/MongoStatusData.cs#L31 "Task MongoStatusData.CreateStatus(StatusModel status)")
+| [31](https://github.com/mpaulosky/BlazorBlog/blob/main/src/BlazorBlogLibrary/DataAccess/MongoStatusData.cs#L31 "Task MongoStatusData.CreateStatus(StatusModel status)")
 | 96 | 1 :heavy_check_mark: | 0 | 4 | 4 / 1 |
 | Method
-| [17](https://github.com/mpaulosky/IssueTracker/blob/main/src/IssueTrackerLibrary/DataAccess/MongoStatusData.cs#L17 "Task<List<StatusModel>> MongoStatusData.GetAllStatuses()")
+| [17](https://github.com/mpaulosky/BlazorBlog/blob/main/src/BlazorBlogLibrary/DataAccess/MongoStatusData.cs#L17 "Task<List<StatusModel>> MongoStatusData.GetAllStatuses()")
 | 68 | 2 :heavy_check_mark: | 0 | 6 | 13 / 7 |
 
-<a href="#issuetrackerlibrary-dataaccess">:top: back to IssueTrackerLibrary.DataAccess</a>
+<a href="#BlazorBloglibrary-dataaccess">:top: back to BlazorBlogLibrary.DataAccess</a>
 
 </details>
 
@@ -483,28 +483,28 @@ Lines of source / executable code |
 Lines of source / executable code |
 | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
 | Field
-| [5](https://github.com/mpaulosky/IssueTracker/blob/main/src/IssueTrackerLibrary/DataAccess/MongoUserData.cs#L5 "IMongoCollection<UserModel> MongoUserData._users")
+| [5](https://github.com/mpaulosky/BlazorBlog/blob/main/src/BlazorBlogLibrary/DataAccess/MongoUserData.cs#L5 "IMongoCollection<UserModel> MongoUserData._users")
 | 100 | 0 :heavy_check_mark: | 0 | 2 | 1 / 0 |
 | Method
-| [7](https://github.com/mpaulosky/IssueTracker/blob/main/src/IssueTrackerLibrary/DataAccess/MongoUserData.cs#L7 "MongoUserData.MongoUserData(IDbConnection db)")
+| [7](https://github.com/mpaulosky/BlazorBlog/blob/main/src/BlazorBlogLibrary/DataAccess/MongoUserData.cs#L7 "MongoUserData.MongoUserData(IDbConnection db)")
 | 93 | 1 :heavy_check_mark: | 0 | 3 | 4 / 1 |
 | Method
-| [30](https://github.com/mpaulosky/IssueTracker/blob/main/src/IssueTrackerLibrary/DataAccess/MongoUserData.cs#L30 "Task MongoUserData.CreateUser(UserModel user)")
+| [30](https://github.com/mpaulosky/BlazorBlog/blob/main/src/BlazorBlogLibrary/DataAccess/MongoUserData.cs#L30 "Task MongoUserData.CreateUser(UserModel user)")
 | 96 | 1 :heavy_check_mark: | 0 | 4 | 4 / 1 |
 | Method
-| [18](https://github.com/mpaulosky/IssueTracker/blob/main/src/IssueTrackerLibrary/DataAccess/MongoUserData.cs#L18 "Task<UserModel> MongoUserData.GetUser(string id)")
+| [18](https://github.com/mpaulosky/BlazorBlog/blob/main/src/BlazorBlogLibrary/DataAccess/MongoUserData.cs#L18 "Task<UserModel> MongoUserData.GetUser(string id)")
 | 80 | 1 :heavy_check_mark: | 0 | 4 | 5 / 3 |
 | Method
-| [24](https://github.com/mpaulosky/IssueTracker/blob/main/src/IssueTrackerLibrary/DataAccess/MongoUserData.cs#L24 "Task<UserModel> MongoUserData.GetUserFromAuthentication(string objectId)")
+| [24](https://github.com/mpaulosky/BlazorBlog/blob/main/src/BlazorBlogLibrary/DataAccess/MongoUserData.cs#L24 "Task<UserModel> MongoUserData.GetUserFromAuthentication(string objectId)")
 | 80 | 1 :heavy_check_mark: | 0 | 4 | 5 / 3 |
 | Method
-| [12](https://github.com/mpaulosky/IssueTracker/blob/main/src/IssueTrackerLibrary/DataAccess/MongoUserData.cs#L12 "Task<List<UserModel>> MongoUserData.GetUsers()")
+| [12](https://github.com/mpaulosky/BlazorBlog/blob/main/src/BlazorBlogLibrary/DataAccess/MongoUserData.cs#L12 "Task<List<UserModel>> MongoUserData.GetUsers()")
 | 82 | 1 :heavy_check_mark: | 0 | 5 | 5 / 3 |
 | Method
-| [35](https://github.com/mpaulosky/IssueTracker/blob/main/src/IssueTrackerLibrary/DataAccess/MongoUserData.cs#L35 "Task MongoUserData.UpdateUser(UserModel user)")
+| [35](https://github.com/mpaulosky/BlazorBlog/blob/main/src/BlazorBlogLibrary/DataAccess/MongoUserData.cs#L35 "Task MongoUserData.UpdateUser(UserModel user)")
 | 83 | 1 :heavy_check_mark: | 0 | 5 | 5 / 2 |
 
-<a href="#issuetrackerlibrary-dataaccess">:top: back to IssueTrackerLibrary.DataAccess</a>
+<a href="#BlazorBloglibrary-dataaccess">:top: back to BlazorBlogLibrary.DataAccess</a>
 
 </details>
 
@@ -512,13 +512,13 @@ Lines of source / executable code |
 
 <details>
 <summary>
-  <strong id="issuetrackerlibrary-models">
-    IssueTrackerLibrary.Models :heavy_check_mark:
+  <strong id="BlazorBloglibrary-models">
+    BlazorBlogLibrary.Models :heavy_check_mark:
   </strong>
 </summary>
 <br>
 
-The `IssueTrackerLibrary.Models` namespace contains 7 named types.
+The `BlazorBlogLibrary.Models` namespace contains 7 named types.
 
 - 7 named types.
 - 103 total lines of source code.
@@ -542,19 +542,19 @@ The `IssueTrackerLibrary.Models` namespace contains 7 named types.
 Lines of source / executable code |
 | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
 | Method
-| [9](https://github.com/mpaulosky/IssueTracker/blob/main/src/IssueTrackerLibrary/Models/BasicCommentModel.cs#L9 "BasicCommentModel.BasicCommentModel()")
+| [9](https://github.com/mpaulosky/BlazorBlog/blob/main/src/BlazorBlogLibrary/Models/BasicCommentModel.cs#L9 "BasicCommentModel.BasicCommentModel()")
 | 100 | 1 :heavy_check_mark: | 0 | 0 | 4 / 0 |
 | Method
-| [14](https://github.com/mpaulosky/IssueTracker/blob/main/src/IssueTrackerLibrary/Models/BasicCommentModel.cs#L14 "BasicCommentModel.BasicCommentModel(CommentModel comment)")
+| [14](https://github.com/mpaulosky/BlazorBlog/blob/main/src/BlazorBlogLibrary/Models/BasicCommentModel.cs#L14 "BasicCommentModel.BasicCommentModel(CommentModel comment)")
 | 83 | 1 :heavy_check_mark: | 0 | 1 | 5 / 2 |
 | Property
-| [7](https://github.com/mpaulosky/IssueTracker/blob/main/src/IssueTrackerLibrary/Models/BasicCommentModel.cs#L7 "string BasicCommentModel.Comment")
+| [7](https://github.com/mpaulosky/BlazorBlog/blob/main/src/BlazorBlogLibrary/Models/BasicCommentModel.cs#L7 "string BasicCommentModel.Comment")
 | 100 | 2 :heavy_check_mark: | 0 | 0 | 1 / 0 |
 | Property
-| [6](https://github.com/mpaulosky/IssueTracker/blob/main/src/IssueTrackerLibrary/Models/BasicCommentModel.cs#L6 "string BasicCommentModel.Id")
+| [6](https://github.com/mpaulosky/BlazorBlog/blob/main/src/BlazorBlogLibrary/Models/BasicCommentModel.cs#L6 "string BasicCommentModel.Id")
 | 100 | 2 :heavy_check_mark: | 0 | 2 | 2 / 2 |
 
-<a href="#issuetrackerlibrary-models">:top: back to IssueTrackerLibrary.Models</a>
+<a href="#BlazorBloglibrary-models">:top: back to BlazorBlogLibrary.Models</a>
 
 </details>
 
@@ -575,19 +575,19 @@ Lines of source / executable code |
 Lines of source / executable code |
 | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
 | Method
-| [9](https://github.com/mpaulosky/IssueTracker/blob/main/src/IssueTrackerLibrary/Models/BasicIssueModel.cs#L9 "BasicIssueModel.BasicIssueModel()")
+| [9](https://github.com/mpaulosky/BlazorBlog/blob/main/src/BlazorBlogLibrary/Models/BasicIssueModel.cs#L9 "BasicIssueModel.BasicIssueModel()")
 | 100 | 1 :heavy_check_mark: | 0 | 0 | 4 / 0 |
 | Method
-| [14](https://github.com/mpaulosky/IssueTracker/blob/main/src/IssueTrackerLibrary/Models/BasicIssueModel.cs#L14 "BasicIssueModel.BasicIssueModel(IssueModel issue)")
+| [14](https://github.com/mpaulosky/BlazorBlog/blob/main/src/BlazorBlogLibrary/Models/BasicIssueModel.cs#L14 "BasicIssueModel.BasicIssueModel(IssueModel issue)")
 | 83 | 1 :heavy_check_mark: | 0 | 1 | 5 / 2 |
 | Property
-| [6](https://github.com/mpaulosky/IssueTracker/blob/main/src/IssueTrackerLibrary/Models/BasicIssueModel.cs#L6 "string BasicIssueModel.Id")
+| [6](https://github.com/mpaulosky/BlazorBlog/blob/main/src/BlazorBlogLibrary/Models/BasicIssueModel.cs#L6 "string BasicIssueModel.Id")
 | 100 | 2 :heavy_check_mark: | 0 | 2 | 2 / 2 |
 | Property
-| [7](https://github.com/mpaulosky/IssueTracker/blob/main/src/IssueTrackerLibrary/Models/BasicIssueModel.cs#L7 "string BasicIssueModel.Issue")
+| [7](https://github.com/mpaulosky/BlazorBlog/blob/main/src/BlazorBlogLibrary/Models/BasicIssueModel.cs#L7 "string BasicIssueModel.Issue")
 | 100 | 2 :heavy_check_mark: | 0 | 0 | 1 / 0 |
 
-<a href="#issuetrackerlibrary-models">:top: back to IssueTrackerLibrary.Models</a>
+<a href="#BlazorBloglibrary-models">:top: back to BlazorBlogLibrary.Models</a>
 
 </details>
 
@@ -608,19 +608,19 @@ Lines of source / executable code |
 Lines of source / executable code |
 | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
 | Method
-| [9](https://github.com/mpaulosky/IssueTracker/blob/main/src/IssueTrackerLibrary/Models/BasicUserModel.cs#L9 "BasicUserModel.BasicUserModel()")
+| [9](https://github.com/mpaulosky/BlazorBlog/blob/main/src/BlazorBlogLibrary/Models/BasicUserModel.cs#L9 "BasicUserModel.BasicUserModel()")
 | 100 | 1 :heavy_check_mark: | 0 | 0 | 3 / 0 |
 | Method
-| [12](https://github.com/mpaulosky/IssueTracker/blob/main/src/IssueTrackerLibrary/Models/BasicUserModel.cs#L12 "BasicUserModel.BasicUserModel(UserModel user)")
+| [12](https://github.com/mpaulosky/BlazorBlog/blob/main/src/BlazorBlogLibrary/Models/BasicUserModel.cs#L12 "BasicUserModel.BasicUserModel(UserModel user)")
 | 83 | 1 :heavy_check_mark: | 0 | 1 | 5 / 2 |
 | Property
-| [7](https://github.com/mpaulosky/IssueTracker/blob/main/src/IssueTrackerLibrary/Models/BasicUserModel.cs#L7 "string BasicUserModel.DisplayName")
+| [7](https://github.com/mpaulosky/BlazorBlog/blob/main/src/BlazorBlogLibrary/Models/BasicUserModel.cs#L7 "string BasicUserModel.DisplayName")
 | 100 | 2 :heavy_check_mark: | 0 | 0 | 1 / 0 |
 | Property
-| [6](https://github.com/mpaulosky/IssueTracker/blob/main/src/IssueTrackerLibrary/Models/BasicUserModel.cs#L6 "string BasicUserModel.Id")
+| [6](https://github.com/mpaulosky/BlazorBlog/blob/main/src/BlazorBlogLibrary/Models/BasicUserModel.cs#L6 "string BasicUserModel.Id")
 | 100 | 2 :heavy_check_mark: | 0 | 2 | 2 / 2 |
 
-<a href="#issuetrackerlibrary-models">:top: back to IssueTrackerLibrary.Models</a>
+<a href="#BlazorBloglibrary-models">:top: back to BlazorBlogLibrary.Models</a>
 
 </details>
 
@@ -641,28 +641,28 @@ Lines of source / executable code |
 Lines of source / executable code |
 | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
 | Property
-| [13](https://github.com/mpaulosky/IssueTracker/blob/main/src/IssueTrackerLibrary/Models/CommentModel.cs#L13 "bool CommentModel.Archived")
+| [13](https://github.com/mpaulosky/BlazorBlog/blob/main/src/BlazorBlogLibrary/Models/CommentModel.cs#L13 "bool CommentModel.Archived")
 | 100 | 2 :heavy_check_mark: | 0 | 0 | 1 / 1 |
 | Property
-| [10](https://github.com/mpaulosky/IssueTracker/blob/main/src/IssueTrackerLibrary/Models/CommentModel.cs#L10 "BasicUserModel CommentModel.Author")
+| [10](https://github.com/mpaulosky/BlazorBlog/blob/main/src/BlazorBlogLibrary/Models/CommentModel.cs#L10 "BasicUserModel CommentModel.Author")
 | 100 | 2 :heavy_check_mark: | 0 | 1 | 1 / 0 |
 | Property
-| [8](https://github.com/mpaulosky/IssueTracker/blob/main/src/IssueTrackerLibrary/Models/CommentModel.cs#L8 "string CommentModel.Comment")
+| [8](https://github.com/mpaulosky/BlazorBlog/blob/main/src/BlazorBlogLibrary/Models/CommentModel.cs#L8 "string CommentModel.Comment")
 | 100 | 2 :heavy_check_mark: | 0 | 0 | 1 / 0 |
 | Property
-| [9](https://github.com/mpaulosky/IssueTracker/blob/main/src/IssueTrackerLibrary/Models/CommentModel.cs#L9 "DateTime CommentModel.DateCreated")
+| [9](https://github.com/mpaulosky/BlazorBlog/blob/main/src/BlazorBlogLibrary/Models/CommentModel.cs#L9 "DateTime CommentModel.DateCreated")
 | 100 | 2 :heavy_check_mark: | 0 | 2 | 1 / 1 |
 | Property
-| [7](https://github.com/mpaulosky/IssueTracker/blob/main/src/IssueTrackerLibrary/Models/CommentModel.cs#L7 "string CommentModel.Id")
+| [7](https://github.com/mpaulosky/BlazorBlog/blob/main/src/BlazorBlogLibrary/Models/CommentModel.cs#L7 "string CommentModel.Id")
 | 100 | 2 :heavy_check_mark: | 0 | 3 | 3 / 2 |
 | Property
-| [12](https://github.com/mpaulosky/IssueTracker/blob/main/src/IssueTrackerLibrary/Models/CommentModel.cs#L12 "StatusModel CommentModel.IssueStatus")
+| [12](https://github.com/mpaulosky/BlazorBlog/blob/main/src/BlazorBlogLibrary/Models/CommentModel.cs#L12 "StatusModel CommentModel.IssueStatus")
 | 100 | 2 :heavy_check_mark: | 0 | 1 | 1 / 0 |
 | Property
-| [11](https://github.com/mpaulosky/IssueTracker/blob/main/src/IssueTrackerLibrary/Models/CommentModel.cs#L11 "HashSet<string> CommentModel.UserVotes")
+| [11](https://github.com/mpaulosky/BlazorBlog/blob/main/src/BlazorBlogLibrary/Models/CommentModel.cs#L11 "HashSet<string> CommentModel.UserVotes")
 | 100 | 2 :heavy_check_mark: | 0 | 1 | 1 / 1 |
 
-<a href="#issuetrackerlibrary-models">:top: back to IssueTrackerLibrary.Models</a>
+<a href="#BlazorBloglibrary-models">:top: back to BlazorBlogLibrary.Models</a>
 
 </details>
 
@@ -683,31 +683,31 @@ Lines of source / executable code |
 Lines of source / executable code |
 | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
 | Property
-| [14](https://github.com/mpaulosky/IssueTracker/blob/main/src/IssueTrackerLibrary/Models/IssueModel.cs#L14 "bool IssueModel.Archived")
+| [14](https://github.com/mpaulosky/BlazorBlog/blob/main/src/BlazorBlogLibrary/Models/IssueModel.cs#L14 "bool IssueModel.Archived")
 | 100 | 2 :heavy_check_mark: | 0 | 0 | 1 / 1 |
 | Property
-| [11](https://github.com/mpaulosky/IssueTracker/blob/main/src/IssueTrackerLibrary/Models/IssueModel.cs#L11 "BasicUserModel IssueModel.Author")
+| [11](https://github.com/mpaulosky/BlazorBlog/blob/main/src/BlazorBlogLibrary/Models/IssueModel.cs#L11 "BasicUserModel IssueModel.Author")
 | 100 | 2 :heavy_check_mark: | 0 | 1 | 1 / 0 |
 | Property
-| [10](https://github.com/mpaulosky/IssueTracker/blob/main/src/IssueTrackerLibrary/Models/IssueModel.cs#L10 "DateTime IssueModel.DateCreated")
+| [10](https://github.com/mpaulosky/BlazorBlog/blob/main/src/BlazorBlogLibrary/Models/IssueModel.cs#L10 "DateTime IssueModel.DateCreated")
 | 100 | 2 :heavy_check_mark: | 0 | 2 | 1 / 1 |
 | Property
-| [9](https://github.com/mpaulosky/IssueTracker/blob/main/src/IssueTrackerLibrary/Models/IssueModel.cs#L9 "string IssueModel.Description")
+| [9](https://github.com/mpaulosky/BlazorBlog/blob/main/src/BlazorBlogLibrary/Models/IssueModel.cs#L9 "string IssueModel.Description")
 | 100 | 2 :heavy_check_mark: | 0 | 0 | 1 / 0 |
 | Property
-| [7](https://github.com/mpaulosky/IssueTracker/blob/main/src/IssueTrackerLibrary/Models/IssueModel.cs#L7 "string IssueModel.Id")
+| [7](https://github.com/mpaulosky/BlazorBlog/blob/main/src/BlazorBlogLibrary/Models/IssueModel.cs#L7 "string IssueModel.Id")
 | 100 | 2 :heavy_check_mark: | 0 | 3 | 3 / 2 |
 | Property
-| [8](https://github.com/mpaulosky/IssueTracker/blob/main/src/IssueTrackerLibrary/Models/IssueModel.cs#L8 "string IssueModel.Issue")
+| [8](https://github.com/mpaulosky/BlazorBlog/blob/main/src/BlazorBlogLibrary/Models/IssueModel.cs#L8 "string IssueModel.Issue")
 | 100 | 2 :heavy_check_mark: | 0 | 0 | 1 / 0 |
 | Property
-| [12](https://github.com/mpaulosky/IssueTracker/blob/main/src/IssueTrackerLibrary/Models/IssueModel.cs#L12 "StatusModel IssueModel.IssueStatus")
+| [12](https://github.com/mpaulosky/BlazorBlog/blob/main/src/BlazorBlogLibrary/Models/IssueModel.cs#L12 "StatusModel IssueModel.IssueStatus")
 | 100 | 2 :heavy_check_mark: | 0 | 1 | 1 / 0 |
 | Property
-| [13](https://github.com/mpaulosky/IssueTracker/blob/main/src/IssueTrackerLibrary/Models/IssueModel.cs#L13 "string IssueModel.OwnerNotes")
+| [13](https://github.com/mpaulosky/BlazorBlog/blob/main/src/BlazorBlogLibrary/Models/IssueModel.cs#L13 "string IssueModel.OwnerNotes")
 | 100 | 2 :heavy_check_mark: | 0 | 0 | 1 / 0 |
 
-<a href="#issuetrackerlibrary-models">:top: back to IssueTrackerLibrary.Models</a>
+<a href="#BlazorBloglibrary-models">:top: back to BlazorBlogLibrary.Models</a>
 
 </details>
 
@@ -728,16 +728,16 @@ Lines of source / executable code |
 Lines of source / executable code |
 | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
 | Property
-| [7](https://github.com/mpaulosky/IssueTracker/blob/main/src/IssueTrackerLibrary/Models/StatusModel.cs#L7 "string StatusModel.Id")
+| [7](https://github.com/mpaulosky/BlazorBlog/blob/main/src/BlazorBlogLibrary/Models/StatusModel.cs#L7 "string StatusModel.Id")
 | 100 | 2 :heavy_check_mark: | 0 | 3 | 3 / 2 |
 | Property
-| [9](https://github.com/mpaulosky/IssueTracker/blob/main/src/IssueTrackerLibrary/Models/StatusModel.cs#L9 "string StatusModel.StatusDescription")
+| [9](https://github.com/mpaulosky/BlazorBlog/blob/main/src/BlazorBlogLibrary/Models/StatusModel.cs#L9 "string StatusModel.StatusDescription")
 | 100 | 2 :heavy_check_mark: | 0 | 0 | 1 / 0 |
 | Property
-| [8](https://github.com/mpaulosky/IssueTracker/blob/main/src/IssueTrackerLibrary/Models/StatusModel.cs#L8 "string StatusModel.StatusName")
+| [8](https://github.com/mpaulosky/BlazorBlog/blob/main/src/BlazorBlogLibrary/Models/StatusModel.cs#L8 "string StatusModel.StatusName")
 | 100 | 2 :heavy_check_mark: | 0 | 0 | 1 / 0 |
 
-<a href="#issuetrackerlibrary-models">:top: back to IssueTrackerLibrary.Models</a>
+<a href="#BlazorBloglibrary-models">:top: back to BlazorBlogLibrary.Models</a>
 
 </details>
 
@@ -758,46 +758,46 @@ Lines of source / executable code |
 Lines of source / executable code |
 | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
 | Property
-| [15](https://github.com/mpaulosky/IssueTracker/blob/main/src/IssueTrackerLibrary/Models/UserModel.cs#L15 "List<BasicCommentModel> UserModel.AuthoredComments")
+| [15](https://github.com/mpaulosky/BlazorBlog/blob/main/src/BlazorBlogLibrary/Models/UserModel.cs#L15 "List<BasicCommentModel> UserModel.AuthoredComments")
 | 100 | 2 :heavy_check_mark: | 0 | 2 | 1 / 1 |
 | Property
-| [13](https://github.com/mpaulosky/IssueTracker/blob/main/src/IssueTrackerLibrary/Models/UserModel.cs#L13 "List<BasicIssueModel> UserModel.AuthoredIssues")
+| [13](https://github.com/mpaulosky/BlazorBlog/blob/main/src/BlazorBlogLibrary/Models/UserModel.cs#L13 "List<BasicIssueModel> UserModel.AuthoredIssues")
 | 100 | 2 :heavy_check_mark: | 0 | 2 | 1 / 1 |
 | Property
-| [11](https://github.com/mpaulosky/IssueTracker/blob/main/src/IssueTrackerLibrary/Models/UserModel.cs#L11 "string UserModel.DisplayName")
+| [11](https://github.com/mpaulosky/BlazorBlog/blob/main/src/BlazorBlogLibrary/Models/UserModel.cs#L11 "string UserModel.DisplayName")
 | 100 | 2 :heavy_check_mark: | 0 | 0 | 1 / 0 |
 | Property
-| [12](https://github.com/mpaulosky/IssueTracker/blob/main/src/IssueTrackerLibrary/Models/UserModel.cs#L12 "string UserModel.EmailAddress")
+| [12](https://github.com/mpaulosky/BlazorBlog/blob/main/src/BlazorBlogLibrary/Models/UserModel.cs#L12 "string UserModel.EmailAddress")
 | 100 | 2 :heavy_check_mark: | 0 | 0 | 1 / 0 |
 | Property
-| [9](https://github.com/mpaulosky/IssueTracker/blob/main/src/IssueTrackerLibrary/Models/UserModel.cs#L9 "string UserModel.FirstName")
+| [9](https://github.com/mpaulosky/BlazorBlog/blob/main/src/BlazorBlogLibrary/Models/UserModel.cs#L9 "string UserModel.FirstName")
 | 100 | 2 :heavy_check_mark: | 0 | 0 | 1 / 0 |
 | Property
-| [7](https://github.com/mpaulosky/IssueTracker/blob/main/src/IssueTrackerLibrary/Models/UserModel.cs#L7 "string UserModel.Id")
+| [7](https://github.com/mpaulosky/BlazorBlog/blob/main/src/BlazorBlogLibrary/Models/UserModel.cs#L7 "string UserModel.Id")
 | 100 | 2 :heavy_check_mark: | 0 | 3 | 3 / 2 |
 | Property
-| [10](https://github.com/mpaulosky/IssueTracker/blob/main/src/IssueTrackerLibrary/Models/UserModel.cs#L10 "string UserModel.LastName")
+| [10](https://github.com/mpaulosky/BlazorBlog/blob/main/src/BlazorBlogLibrary/Models/UserModel.cs#L10 "string UserModel.LastName")
 | 100 | 2 :heavy_check_mark: | 0 | 0 | 1 / 0 |
 | Property
-| [8](https://github.com/mpaulosky/IssueTracker/blob/main/src/IssueTrackerLibrary/Models/UserModel.cs#L8 "string UserModel.ObjectIdentifier")
+| [8](https://github.com/mpaulosky/BlazorBlog/blob/main/src/BlazorBlogLibrary/Models/UserModel.cs#L8 "string UserModel.ObjectIdentifier")
 | 100 | 2 :heavy_check_mark: | 0 | 0 | 1 / 0 |
 | Property
-| [14](https://github.com/mpaulosky/IssueTracker/blob/main/src/IssueTrackerLibrary/Models/UserModel.cs#L14 "List<BasicCommentModel> UserModel.VotedOnComments")
+| [14](https://github.com/mpaulosky/BlazorBlog/blob/main/src/BlazorBlogLibrary/Models/UserModel.cs#L14 "List<BasicCommentModel> UserModel.VotedOnComments")
 | 100 | 2 :heavy_check_mark: | 0 | 2 | 1 / 1 |
 
-<a href="#issuetrackerlibrary-models">:top: back to IssueTrackerLibrary.Models</a>
+<a href="#BlazorBloglibrary-models">:top: back to BlazorBlogLibrary.Models</a>
 
 </details>
 
 </details>
 
-<a href="#issuetrackerlibrary">:top: back to IssueTrackerLibrary</a>
+<a href="#BlazorBloglibrary">:top: back to BlazorBlogLibrary</a>
 
-<div id='issuetrackerlibraryunittests'></div>
+<div id='BlazorBloglibraryunittests'></div>
 
-## IssueTrackerLibraryUnitTests :question:
+## BlazorBlogLibraryUnitTests :question:
 
-The *IssueTrackerLibraryUnitTests.csproj* project file contains:
+The *BlazorBlogLibraryUnitTests.csproj* project file contains:
 
 - 0 namespaces.
 - 0 named types.
@@ -805,7 +805,7 @@ The *IssueTrackerLibraryUnitTests.csproj* project file contains:
 - Approximately 0 lines of executable code.
 - The highest cyclomatic complexity is 0 :question:.
 
-<a href="#issuetrackerlibraryunittests">:top: back to IssueTrackerLibraryUnitTests</a>
+<a href="#BlazorBloglibraryunittests">:top: back to BlazorBlogLibraryUnitTests</a>
 
 ## Metric definitions
 
