@@ -1,0 +1,28 @@
+@import '../custom';
+
+// GRADIENT MIXIN
+@mixin gradient {
+  background: linear-gradient(to right, rgba($primary, 0.95), rgba($secondary, 0.95));
+}
+
+// ABSOLUTE CENTER
+@mixin absoluteCenter {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+// TRANSITION PROPERTY
+@mixin transitionProperty {
+  transition-duration: 1s;
+  transition-property: all;
+}
+
+@mixin myBanner($file) {
+  /*!
+   * #{$file}
+   * Copyright 2011-2023 mpaulosky
+   * Licensed under MIT (https://github.com/mpaulosky/mpaulosky_App/main/LICENSE)
+   */
+}

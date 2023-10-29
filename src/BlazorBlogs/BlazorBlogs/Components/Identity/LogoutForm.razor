@@ -1,4 +1,4 @@
-﻿@using Microsoft.AspNetCore.Identity
+@using Microsoft.AspNetCore.Identity
 @using BlazorBlogs.Data
 @using BlazorBlogs.Identity
 
@@ -7,28 +7,28 @@
 @inject IdentityRedirectManager RedirectManager
 
 <form @onsubmit="OnSubmitAsync" @formname="logout" method="post" @attributes="AdditionalAttributes">
-    <AntiforgeryToken />
-    <input type="hidden" name="ReturnUrl" value="@NavigationManager.Uri" />
+	<AntiforgeryToken />
+	<input type="hidden" name="ReturnUrl" value="@NavigationManager.Uri" />
 </form>
 
 @code {
-    [Parameter(CaptureUnmatchedValues = true)]
-    public IDictionary<string, object?>? AdditionalAttributes { get; set; }
+	[Parameter(CaptureUnmatchedValues = true)]
+	public IDictionary<string, object?>? AdditionalAttributes { get; set; }
 
-    [SupplyParameterFromForm]
-    private string? ReturnUrl { get; set; }
+	[SupplyParameterFromForm]
+	private string? ReturnUrl { get; set; }
 
-    [CascadingParameter]
-    private HttpContext HttpContext { get; set; } = default!;
+	[CascadingParameter]
+	private HttpContext HttpContext { get; set; } = default!;
 
-    private async Task OnSubmitAsync()
-    {
-        var user = HttpContext.User;
+	private async Task OnSubmitAsync()
+	{
+		var user = HttpContext.User;
 
-        if (SignInManager.IsSignedIn(user))
-        {
-            await SignInManager.SignOutAsync();
-            RedirectManager.RedirectTo(ReturnUrl ?? "/");
-        }
-    }
+		if (SignInManager.IsSignedIn(user))
+		{
+			await SignInManager.SignOutAsync();
+			RedirectManager.RedirectTo(ReturnUrl ?? "/");
+		}
+	}
 }

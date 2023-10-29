@@ -2,5 +2,10 @@
   {
     "outputFile": "wwwroot/css/BlazorSass.css",
     "inputFile": "Styles/BlazorSass.scss"
+  },
+  {
+    "outputFile": "wwwroot/css/fontawesome.css",
+    "inputFile": "wwwroot/lib/fontawesome/scss/fontawesome.scss"
   }
+
 ]
