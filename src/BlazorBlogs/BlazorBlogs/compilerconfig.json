@@ -1,7 +1,7 @@
 [
   {
     "outputFile": "wwwroot/css/BlazorSass.css",
-    "inputFile": "Styles/BlazorSass.scss"
+    "inputFile": "wwwroot/Styles/BlazorSass.scss"
   },
   {
     "outputFile": "wwwroot/css/fontawesome.css",
