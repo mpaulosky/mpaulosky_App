@@ -12,7 +12,6 @@ on:
     types: [opened, synchronize, reopened, closed]
     paths: ["src/**"]
   workflow_dispatch:
-    branches: ["main"]
     inputs:
       reason:
         description: "The reason for running the workflow"
@@ -27,18 +26,18 @@ jobs:
       run:
         working-directory: ./src
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
       - name: Setup .NET
         uses: actions/setup-dotnet@v3
         with:
-          global-json-file: ./Global.json
+          global-json-file: ./global.json
       - name: Restore dependencies
         run: dotnet restore
       - name: Build
         run: dotnet build --no-restore
       - name: Unit Test
         run: dotnet test --no-build --verbosity normal --settings runsettings.xml
-        working-directory: ./src/TagzApp.UnitTest
+        working-directory: ./src/test
 
       - name: Install GitVersion
         uses: gittools/actions/gitversion/setup@v0.10.2
@@ -57,7 +56,7 @@ jobs:
       - name: Upload dotnet test results
         uses: actions/upload-artifact@v3
         with:
-          name: IssueTracker-test-results
+          name: mpaulosky_App-test-results
           path: TestResults
 
         # Use always() to always run this step to
