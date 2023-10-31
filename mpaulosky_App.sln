@@ -13,16 +13,37 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "0. SolutionFiles", "0. Solu
 		CODE_METRICS.md = CODE_METRICS.md
 		CODE_OF_CONDUCT.md = CODE_OF_CONDUCT.md
 		CONTRIBUTING.md = CONTRIBUTING.md
+		.github\dependabot.yml = .github\dependabot.yml
 		Global.json = Global.json
 		LICENSE = LICENSE
 		README.md = README.md
 		REFERENCES.md = REFERENCES.md
+		runsettings.xml = runsettings.xml
 		SECURITY.md = SECURITY.md
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorBlogs", "src\BlazorBlogs\BlazorBlogs\BlazorBlogs.csproj", "{CBB040E4-9867-49DD-8C67-C031DC6AFF53}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlazorBlogs", "src\BlazorBlogs\BlazorBlogs\BlazorBlogs.csproj", "{CBB040E4-9867-49DD-8C67-C031DC6AFF53}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorBlogs.Client", "src\BlazorBlogs\BlazorBlogs.Client\BlazorBlogs.Client.csproj", "{F8548B84-B832-4906-8374-2781A2D26B4E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlazorBlogs.Client", "src\BlazorBlogs\BlazorBlogs.Client\BlazorBlogs.Client.csproj", "{F8548B84-B832-4906-8374-2781A2D26B4E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "github", "github", "{C81F5DC7-552C-44ED-8CF5-F63F2734BAAA}"
+	ProjectSection(SolutionItems) = preProject
+		.github\dependabot.yml = .github\dependabot.yml
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ISSUE_TEMPLATE", "ISSUE_TEMPLATE", "{F313BD6C-B4DD-40D4-980A-F3A2C5D908FA}"
+	ProjectSection(SolutionItems) = preProject
+		.github\ISSUE_TEMPLATE\bug_report.md = .github\ISSUE_TEMPLATE\bug_report.md
+		.github\ISSUE_TEMPLATE\config.yml = .github\ISSUE_TEMPLATE\config.yml
+		.github\ISSUE_TEMPLATE\feature_request.md = .github\ISSUE_TEMPLATE\feature_request.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "workflows", "workflows", "{8B503007-8525-483C-B3DC-4158D7E0E638}"
+	ProjectSection(SolutionItems) = preProject
+		.github\workflows\code-metrics.yml = .github\workflows\code-metrics.yml
+		.github\workflows\codeql-analysis.yml = .github\workflows\codeql-analysis.yml
+		.github\workflows\dotnet.yml = .github\workflows\dotnet.yml
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +66,9 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{CBB040E4-9867-49DD-8C67-C031DC6AFF53} = {0C8B42A5-385B-489B-B157-69D6A96A0BAF}
 		{F8548B84-B832-4906-8374-2781A2D26B4E} = {0C8B42A5-385B-489B-B157-69D6A96A0BAF}
+		{C81F5DC7-552C-44ED-8CF5-F63F2734BAAA} = {1C165D5C-1899-4616-90BD-DFFCED4299F0}
+		{F313BD6C-B4DD-40D4-980A-F3A2C5D908FA} = {C81F5DC7-552C-44ED-8CF5-F63F2734BAAA}
+		{8B503007-8525-483C-B3DC-4158D7E0E638} = {C81F5DC7-552C-44ED-8CF5-F63F2734BAAA}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {CBA8918D-C5D7-4B6C-AEA2-C6F3E53F84B7}

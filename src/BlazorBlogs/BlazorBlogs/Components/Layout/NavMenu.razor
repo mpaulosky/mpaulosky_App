@@ -5,11 +5,11 @@
 		<a class="navbar-brand" href="#">
 			<img src="images/png/favicon.png" alt="Logo Image" /> Blazor Blogs
 		</a>
-		<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+		<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 			<span class="navbar-toggler-icon"></span>
 		</button>
-		<div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-			<ul class="navbar-nav">
+		<div class="collapse navbar-collapse" id="navbarSupportedContent">
+			<ul class="navbar-nav me-auto mb-2 mb-lg-0">
 				<li class="nav-item">
 					<a class="nav-link active" aria-current="page" href="#">Home</a>
 				</li>
@@ -42,10 +42,14 @@
 							</NavLink>
 						</li>
 						<li class="nav-item">
-							<NavLink class="nav-link" href="#" onclick="document.getElementById('logout-form').submit(); return false;">
+							<NavLink class="nav-link" href="/Identity/logout">
 								<span class="bi bi-arrow-bar-left" aria-hidden="true"></span> Logout
 							</NavLink>
-							<LogoutForm id="logout-form" />
+
+@* 							<LogoutForm id="logout-form"  />
+							<NavLink class="nav-link" href="#" onclick="document.getElementById('logout-form').submit(); return false;">
+								<span class="bi bi-arrow-bar-left" aria-hidden="true"></span> Logout
+							</NavLink> *@
 						</li>
 					</Authorized>
 					<NotAuthorized>
@@ -66,3 +70,4 @@
 		</div>
 	</div>
 </nav>
+
