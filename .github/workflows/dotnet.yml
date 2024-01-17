@@ -28,7 +28,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - name: Setup .NET
-        uses: actions/setup-dotnet@v3
+        uses: actions/setup-dotnet@v4
         with:
           global-json-file: ./Global.json
       - name: Restore dependencies
@@ -54,7 +54,7 @@ jobs:
         uses: codecov/codecov-action@v3.1.4
 
       - name: Upload dotnet test results
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: mpaulosky_App-test-results
           path: TestResults
